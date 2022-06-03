@@ -25,8 +25,6 @@ function App() {
     getData();
   }, []);
 
-  console.log(fakeData);
-
   return (
     <div className="app">
       <div className="app-header">Simple React Demo App</div>
