@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: aquamarine; */
+  padding: 10px;
+}
+
+.app-header {
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.app-body {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
